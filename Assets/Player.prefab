@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2043118783816648816}
   - component: {fileID: 147943448705850732}
   - component: {fileID: 1271448280291937451}
-  - component: {fileID: -4711380848121924619}
+  - component: {fileID: 8893949748511218967}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -129,7 +129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16063d85f14330a4a87140e352023d96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0
+  moveSpeed: 5
+  rotationSpeed: 15
+  mainCamera: {fileID: 0}
 --- !u!61 &2043118783816648816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -187,7 +189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16063d85f14330a4a87140e352023d96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0
+  moveSpeed: 5
+  rotationSpeed: 15
+  mainCamera: {fileID: 0}
 --- !u!114 &1271448280291937451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,7 +222,7 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &-4711380848121924619
+--- !u!114 &8893949748511218967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,4 +234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16063d85f14330a4a87140e352023d96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0
+  moveSpeed: 5
+  rotationSpeed: 15
+  mainCamera: {fileID: 0}
